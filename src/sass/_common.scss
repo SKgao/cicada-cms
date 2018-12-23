@@ -1,0 +1,113 @@
+@import "flexbox";
+@charset "UTF-8";
+
+
+/**
+    清除浮动
+    */
+
+.clearfloat:after {
+    display: block;
+    content: "$";
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.clearfloat {
+    zoom: 1;
+}
+
+//分页样式
+.pageTool {
+  background: #FBFBFB;
+  padding: 10px;
+  border: 1px solid #dfe6ec;
+  margin: 10px 0px;
+  .el-form-item {
+    margin-bottom: 10px;
+  }
+}
+
+.ldl-list-search {
+    margin: 0px 20px 20px;
+    padding: 0px 15px 0px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 5px 5px rgba(175, 175, 175, .2);
+    dt {
+        height: 45px;
+        line-height: 45px;
+        border-bottom: 1px solid #efefef;
+        i {
+            float: left;
+            font-style: normal;
+            height: 44px;
+            line-height: 44px;
+            border-bottom: 3px solid #158de8;
+            font-size: 16px;
+        }
+    }
+    dd {
+        padding: 10px 0;
+        margin: 0;
+        //border-bottom: 1px solid #efefef;
+        .el-form-item{
+           margin-bottom:10px ;
+          .el-form-item__label{
+            background-color: red;
+          }
+          &.noMargin{
+            margin:0 ;
+          }
+        }
+
+        .el-radio-group{
+          .el-radio{
+            margin-left:0px;
+            margin-right:15px;
+            padding:4px 10px 4px 0;
+            color: #888;
+            background: #ebf5fb;
+
+          }
+
+        }
+       .el-select {
+         width: 100%
+       }
+    }
+}
+
+.ldl-list-result {
+  margin: 0px 20px 0;
+  padding: 10px 15px 0px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 5px 5px rgba(175, 175, 175, .2);
+  dt {
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 1px solid #efefef;
+    i {
+      float: left;
+      font-style: normal;
+      height: 44px;
+      line-height: 44px;
+      border-bottom: 3px solid #158de8;
+      font-size: 16px;
+    }
+  }
+  dd {
+    padding: 20px 0 20px;
+    margin: 0;
+  }
+}
+
+.fBlue {
+  color: #1e6abc !important;
+}
+.txtUnderline{
+  text-decoration: underline;
+}
