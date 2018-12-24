@@ -1,8 +1,7 @@
 <template>
   <div class="app-container">
 
-
- 合作伙伴详情
+    合作伙伴详情
   </div>
 </template>
 
@@ -10,8 +9,8 @@
 
 export default{
   name: 'DetailPartner',
-  components: {  },
-  directives: {  },
+  components: { },
+  directives: { },
   data() {
     return {
 

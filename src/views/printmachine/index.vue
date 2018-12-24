@@ -129,7 +129,6 @@ export default{
       return index + 1
     },
     formAddSubmit() {
-
       this.$refs.formAdd.validate(val => {
         if (val) {
           this.listLoading = true

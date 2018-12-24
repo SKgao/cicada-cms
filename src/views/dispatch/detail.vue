@@ -1,7 +1,7 @@
 <template>
   <div class="app-container">
 
-DetailDispatch
+    DetailDispatch
   </div>
 </template>
 

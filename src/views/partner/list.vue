@@ -11,11 +11,11 @@
 
 export default{
   name: 'ListPartner',
-  components: {  },
+  components: { },
   data() {
-     return {
-        testId:111
-     }
+    return {
+      testId: 111
+    }
   },
   methods: {
 

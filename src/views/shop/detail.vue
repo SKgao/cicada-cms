@@ -310,7 +310,7 @@
             <span v-if="bindSourceFrom.sourceId == item.id">
               <a :href=" item.url " class="fBlue txtUnderline" target="_blank">绑定{{ item.name }}</a>
             </span>
-            <span v-if="bindSourceFrom.sourceId == item.id && item.name === '饿百' ">
+            <span v-if="bindSourceFrom.sourceId == item.id && item.name === '饿百'">
               &nbsp;
               <a
                 href="https://open-be.ele.me/dev/app/appdetail?app_id=2130&anchor=menu-project-appdetail"

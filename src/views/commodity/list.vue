@@ -3,7 +3,7 @@
     <dl class="ldl-list-search">
       <dt><i>商品列表</i></dt>
       <dd>
-11
+        11
       </dd>
     </dl>
 
@@ -25,7 +25,7 @@ export default{
       start: 0, // 分页开始行
       currentPage: 1,
       pageSize: 5,
-      total: null,
+      total: null
     }
   },
   mounted() {
